@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
+
+body,
+html {
+  width: 100vw;
+  height: 100vh;
+  background: #add8e63b;
+}
+header {
+  width: 100%;
+  height: 80px;
+  background: #54adca;
+  margin-bottom: 15px;
+}
+
+/* Use apale class */
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+.clerefix::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+/* /////////////////////////////////////////// */
+
+h1 {
+  margin: 21px 0 0 10px;
+  /* font-family: Arial, Helvetica, sans-serif; */
+  font-size: x-large;
+  font-family: 'Kaushan Script';
+}
+li {
+  margin: 5px;
+}
+
+ul {
+  list-style: disc;
+  margin: 0 0 0 29px;
+  line-height: 22px;
+  font-size: 15px;
+  font-family: monospace;
+  font-weight: 900;
+}
+h3 {
+  text-align: center;
+  font-size: x-large;
+  margin: 10px 0 10px 0;
+}
+aside {
+  width: 280px;
+  height: 460px;
+  overflow: scroll;
+  background: lightblue;
+}
+
+.logo-div {
+  margin: 20px 0 0 90px;
+  display: inline-block;
+}
+
+.logo {
+  width: 55px;
+  height: 55px;
+}
+
+.ra-img {
+  width: 280px;
+  height: 200px;
+  margin: 0 10px;
+}
+
+.all-imgs {
+  width: 80%;
+  height: 200px;
+  margin: auto auto;
+  position: relative;
+  top: 40px;
+  left: 40px;
+}
+#p {
+  max-width: 1000px;
+  position: relative;
+  top: 90px;
+  /* right: 61px; */
+  left: 20px;
+  font-size: large;
+}
+
+footer {
+  width: 100%;
+  height: 50px;
+  background: #54adca;
+  position: absolute;
+  bottom: 0;
+}
