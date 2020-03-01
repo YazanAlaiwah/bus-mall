@@ -83,7 +83,7 @@ function randomImages() {
 randomImages();
 // funcito will called when user click an image
 function userClick(e) {
-  // if statment to check if the user had 25 rounds if yes will delete the event and display the 
+  // if statment to check if the user had 25 rounds if yes will delete the event and display the
   // reuslte as unoreder list
   if (rounds === 25) {
     imgs.removeEventListener('click', userClick);
