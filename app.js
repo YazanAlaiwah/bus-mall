@@ -65,7 +65,6 @@ function randomImages() {
     ceneter.name === right.name
   ) {
     left = imagesObj[getRndInteger(0, images.length - 1)];
-
     ceneter = imagesObj[getRndInteger(0, images.length - 1)];
     right = imagesObj[getRndInteger(0, images.length - 1)];
   }
